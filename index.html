@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fall Detection Based on Kinect - Zhang Jingjing</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Slider
+    ================================================== -->
+<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+<link href="http://fonts.useso.com/css?family=Lato:400,700,900,300" rel="stylesheet" type="text/css">
+<link href="http://fonts.useso.com/css?family=Open+Sans:400,700,800,600,300" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/modernizr.custom.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Header -->
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="intro-text">
+          <h1>Fall Detection Based on Kinect</h1>
+          <p>Zhang Jingjing</p>
+          <a href="#portfolio" class="btn btn-default btn-lg page-scroll">Download</a></div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+        <a class="navbar-brand page-scroll" href="#page-top">Fall Detection Based on Kinect</a> </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"> <a href="#page-top"></a> </li>
+          <li> <a class="page-scroll" href="#about">About</a> </li>          
+          <li> <a class="page-scroll" href="#milestone">Milestones</a> </li>
+          <li> <a class="page-scroll" href="#review">Literature Review</a> </li>          
+          <li> <a class="page-scroll" href="#fall">Fall</a> </li>
+          <li> <a class="page-scroll" href="#kinect">Kinect</a> </li>
+          <li> <a class="page-scroll" href="#algorithm">Algorithm</a> </li>
+          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About the Project</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="about-text">
+          <p>Falls are major causes of mortality and morbidity. The risk of death rises significantly when falls fail to be reported to caregivers in time. Therefore, automatically detect and report a fall timely is necessary.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Milestone Section -->
+<div id="milestone" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Milestone</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <h4>1 Mar 2016 <br>
+                - <br>
+                20 Mar 2016 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Literature Review</h4>
+                <h4 class="subheading">15 hours</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Review the previous' work about the fall detection, to obtain the different ways to realize it.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>20 Mar 2016 <br>
+                - <br>
+                1 Apr 2016 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Evaluate the features of fall</h4>
+                <h4 class="subheading">15 hours</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Classify the types of fall and determine the environment of each fall to narrow down the target scene.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <h4>1 Apr 2016 <br>
+                - <br>
+                15 Apr 2016 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Choose the appropriate device</h4>
+                <h4 class="subheading">15 hours</h4>
+              </div>
+              <div class="timeline-body">
+                <p>According to the target scene, compare the different ways to detect fall. After comparison, I choosed the Kinect as the device to aquire image data.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>15 Apr 2016 <br>
+                - <br>
+                31 May 2016 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Learning the programming guide of Kinect</h4>
+                <h4 class="subheading">40 hours</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Learn the features of Kinect and the use of API of Kinect SDK.</p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <h4>31 May 2016 <br>
+                - <br>
+                25 Aug 2016 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Design and implement the algorithm</h4>
+                <h4 class="subheading">220 hours</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Fully use of the data provided by Kinect to determine whether the people in scene is in the motion of fall. If so, give a message to the caregiver or call ambulance.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>25 Aug 2016 <br>
+                - <br>
+                10 Oct 2016 </h4>
+            </div>
+            
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Evaluate the performance</h4>
+                <h4 class="subheading">120 hours</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Evaluate the performance of the algorithm, and compare it to the other approaches to the fall detection designed by other works.</p>
+              </div>
+            </div>
+          </li>
+          <li >
+            <div class="timeline-image">
+              <h4>10 Oct 2016 <br>
+                - <br>
+                20 Oct 2016 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Build the interface for actual use</h4>
+                <h4 class="subheading">15 hours</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Offering the adjust function to change the vertical angle manually and to custom the fall detection function like whether using voice to improving the detect performance.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>20 Oct 2016 <br>
+                - <br>
+                1 Nov 2016 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Build website</h4>
+                <h4 class="subheading">80 hours</h4>
+              </div>
+              
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <h4>1 Nov 2016 <br>
+                - <br>
+                1 Dec 2016 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Writing dissertation</h4>
+                <h4 class="subheading">80 hours</h4>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Literature Review Section -->
+<div id="review">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Literature Review</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="about-text">
+          <p>The dramatic aging of the world’s population underscores an urgent need for research to focus on the elder people .  Fall detection is one of the orientation.</p>
+<p>There are two main different ways to detect fall previously according to Raul: context-aware systems and wearable devices . The context-aware systems are operated by analysing the information provided by the sensor deployed previously, and the target person do not need to wear any special devices. And the wearable devices literally means the miniature sensor-based devices that can be worn by the target.</p>
+<p>And the sensors of context-aware systems can be classified into normal video sensors, infrared sensors, microphones and pressure sensors. The wearable devices can be classified into accelerometer devices, smart phone embedded accelerometer. And the devices in smart phone has many sensors can be analysed: accelerometer, digital compass, gyroscope, GPS, microphone, and camera . The research of it nearly combined all of the functions above.</p>
+<p>Normally, the method of context-aware systems started with background subtraction  , and extract the objects from the detection by some features. And then, it discriminates falls from non-falls in various methods: coefficient based on the motion history , two-step fall model , multi-frame Gaussian classifier , hidden Markov models , etc.</p>
+<p>But the methods above are incomplete yet: the algorithms are dependent on the placement of camera; the test data do not have representativeness which only test a few persons’ fallen; the use of video arouse people’s concern about privacy.</p>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Features of fall Section -->
+<div id="fall">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Features of fall</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="about-text">
+          <p>Falls are a major public health problem among older people. More falls take place in indoor environment and most of it happened in bedroom in America . Besides, the people alone has more chance to injure because of falls . And the main reason of it is no timely help after falling. According to these facts we could largely reduce the injures caused by falls by detect falls happened in bedroom which is an indoor environment when people are alone. </p>
+<p>Falls can be classified into 6 types : slips, trips, extrinsic falls, intrinsic falls, falls from an upper level and other non-defined mechanisms. But compare with the situation analysed above, many types of falls can be filtered, and remains only two types of falls, including slips and traps. The common ground of it is the large move of height. The algorithm behind will make fully use of this facts.
+</p>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Features of Kinect Section -->
+<div id="kinect">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Features of Kinect</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="about-text">
+          <p>Kinect has wide range of vertical field and horizontal field. Four data streams are provided by kinect: color stream, depth stream, sound stream and the infrared stream provided by the color image stream. There is only one color image stream available per sensor. The infrared image stream is provided by the color image stream.</p>
+<p>The most valuable data kinect provided is the skeletal information, which is the result of machine learning training, and contains the positions of most useful joints. Although it is trained to recognize the user facing the sensor, but the result of evaluation shows that even not face to the sensor, the height of each joint is well recognized, and it is sufficient to detect fall as well. And it works well in the dark as well, which could meet the requirement that detect the fall through the day
+</p>
+         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Algorithm Section -->
+<div id="algorithm" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Algorithm</h2>
+      <hr>
+    </div>
+    <div class="space"></div>
+    <div class="row">
+      <div class="col-md-4 col-sm-7 service"> 
+        <h4>Adjust Kinect Mode</h4>
+        <p>First is to adjust the kinect mode according to the position and posture of people. The joints of head, heap center, two knee will be used in this step. The first part of adjust kinect mode is to get the position of the hip center to determing the mode should be near mode or default mode. The second part is to calculate the distance of hip center and knees to determine the mode should be seat mode or stand mode.</p>
+      </div>
+      <div class="col-md-4 col-sm-7 service"> 
+        <h4>Detect Motion</h4>
+        <p>The second step of fall detection is to detect the motion. In this step two data of 4 specific joints would be calculated to determine whether the motion is about to fall. The first part of this step is to get the average acceleration of each joint. The second part is to calculate the distance between the joint and the floor plane. In the third part, threshold of 0.05 and 0.8 is used to detect motion.</p>
+      </div>
+      <div class="col-md-4 col-sm-7 service"> 
+        <h4>Judge Motion</h4>
+        <p>The last step of fall detection is to judge whether the motion detected can be categorised into fall by determine whether every detected joints is in the fall motion.</p>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Contact me</h2>
+      <hr>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
+        <p>Baihao Building<br>
+          Hong Kong</p>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
+        <p>jing15@connect.hku.hk</p>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
+        <p> +852 56196656</p>
+      </div>
+      <hr>
+      <div class="clearfix"></div>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <h3>Leave me a message</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default">Send Message</button>
+      </form>
+      <div class="social">
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyright &copy; 2015 Zhang Jingjing</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/easypiechart.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
