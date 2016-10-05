@@ -1,9 +1,8 @@
 /* your styles go here */
-#Container .mix{
-  display: none;
-}
+/*#Container .mix{*/
+  /*display: none;*/
+/*}*/
 
-@import 'transform';
 
 .portfolio-btn {
   color: #b6b6b6;
@@ -53,4 +52,51 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+}
+
+.Parabutton{
+  position: relative;
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  margin: 1px 8px 8px 8px;
+  padding: 0 8px 0 8px;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Roboto", "Microsoft YaHei","STXihei",Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  font-weight: bold;
+}
+
+.Parabutton::before{
+  content: '';
+  position: absolute;
+  top:0;    right: 0;    bottom: 0;    left: 0;
+  transform: skew(-20deg);
+  z-index: -1;
+  -webkit-border-radius: 10%;
+  border-radius: 10%;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.UR::before{
+  background: #a9da3f;
+}
+
+.UT::before{
+  background: #3a99d8;
+}
+
+.AR::before{
+  background: #9a5cb4;
+}
+
+.PG::before{
+  background: #29bb9c;
+}
+
+.PR::before{
+  background: #f0c330;
 }
