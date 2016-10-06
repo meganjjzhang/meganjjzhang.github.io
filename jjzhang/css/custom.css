@@ -82,21 +82,22 @@
 }
 
 .UR::before{
-  background: #a9da3f;
+  background: #C5E1A5;
 }
 
 .UT::before{
-  background: #3a99d8;
+  background: #90CAF9;
 }
 
 .AR::before{
-  background: #9a5cb4;
+  background: #CE93D8;
 }
 
 .PG::before{
-  background: #29bb9c;
+  background: #80CBC4 ;
 }
 
 .PR::before{
-  background: #f0c330;
+  background: #FFCC80;
 }
+
