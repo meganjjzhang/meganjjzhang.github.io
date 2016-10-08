@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91f81cba-2276-4393-b243-9b3422c92503" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/browser.png" afterPath="$PROJECT_DIR$/img/portfolio/browser.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/kuaikan.png" afterPath="$PROJECT_DIR$/img/portfolio/kuaikan.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/loulian.png" afterPath="$PROJECT_DIR$/img/portfolio/loulian.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/transformersGame.png" afterPath="$PROJECT_DIR$/img/portfolio/transformersGame.png" />
     </list>
     <ignored path="meganjjzhang.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -178,12 +181,12 @@
       <updated>1475058685143</updated>
       <workItem from="1475058687378" duration="2194000" />
       <workItem from="1475144063418" duration="5314000" />
-      <workItem from="1475918373352" duration="415000" />
+      <workItem from="1475918373352" duration="1013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7923000" />
+    <option name="totallyTimeSpent" value="8521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
