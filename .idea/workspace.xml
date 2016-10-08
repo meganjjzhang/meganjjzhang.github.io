@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91f81cba-2276-4393-b243-9b3422c92503" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/browser.png" afterPath="$PROJECT_DIR$/img/portfolio/browser.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/kuaikan.png" afterPath="$PROJECT_DIR$/img/portfolio/kuaikan.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/loulian.png" afterPath="$PROJECT_DIR$/img/portfolio/loulian.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/transformersGame.png" afterPath="$PROJECT_DIR$/img/portfolio/transformersGame.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/portfolio/ClashRoyal.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/portfolio/ClashRoyal.jpg" afterPath="$PROJECT_DIR$/img/portfolio/ClashRoyal.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="meganjjzhang.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="176" column="30" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="30" />
+            <state relative-caret-position="360">
+              <caret line="259" column="117" selection-start-line="259" selection-start-column="49" selection-end-line="259" selection-end-column="117" />
               <folding />
             </state>
           </provider>
@@ -181,12 +180,12 @@
       <updated>1475058685143</updated>
       <workItem from="1475058687378" duration="2194000" />
       <workItem from="1475144063418" duration="5314000" />
-      <workItem from="1475918373352" duration="1013000" />
+      <workItem from="1475918373352" duration="1138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8521000" />
+    <option name="totallyTimeSpent" value="8646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
@@ -237,8 +236,8 @@
     <entry file="file://$PROJECT_DIR$/mixitup/blank.html" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="176" column="30" selection-start-line="176" selection-start-column="30" selection-end-line="176" selection-end-column="30" />
+        <state relative-caret-position="360">
+          <caret line="259" column="117" selection-start-line="259" selection-start-column="49" selection-end-line="259" selection-end-column="117" />
           <folding />
         </state>
       </provider>
