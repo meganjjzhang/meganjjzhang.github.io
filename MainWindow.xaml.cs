@@ -20,13 +20,7 @@ using System.ComponentModel;
 //using System.Windows;
 //using System.Windows.Controls;
 using System.Windows.Threading;
-
-using LibSVMsharp;
-using LibSVMsharp.Extensions;
-//using System.Globalization;
-using LibSVMsharp.Helpers;
-
-
+using WpfApplication1.svmPredict;
 namespace WpfApplication1
 {
 
@@ -109,12 +103,8 @@ namespace WpfApplication1
 
 
         StreamWriter swMyfile = new StreamWriter(new FileStream("rawData.csv", FileMode.Append, FileAccess.Write));
-        //StreamWriter singleDataFile = new StreamWriter(new FileStream("singleTest.txt", FileMode.Create, FileAccess.Write));
         #endregion
         System.Text.StringBuilder sbToCSV = new System.Text.StringBuilder();
-        //System.Text.StringBuilder singleLine = new System.Text.StringBuilder();
-        SVMProblem testSet = SVMProblemHelper.Load(@"wine.txt"); 
-        SVMModel model = SVM.LoadModel(@"model.txt");
 
         private string svmMark;
 
@@ -776,9 +766,8 @@ namespace WpfApplication1
             }
 
             // Follow up processing the CSV file, list and graph
-            double[] target = testSet.Predict(model);
-            Console.WriteLine(target[0]);
             jointInformationList.ItemsSource = items;
+
             swMyfile.WriteLine(sbToCSV);
             swMyfile.Flush();
 
@@ -797,31 +786,6 @@ namespace WpfApplication1
                     timer.Start();
                 }
             }
-        }
-
-        private string predict(System.Text.StringBuilder sbToCSV)
-        {
-            SVMProblem problem = new SVMProblem();
-            NumberFormatInfo provider = new NumberFormatInfo();
-            provider.NumberDecimalSeparator = ".";
-            string line = sbToCSV.ToString();
-            string[] list = line.Trim().Split(' ');
-
-            double y = Convert.ToDouble(list[0].Trim(), provider);
-
-            List<SVMNode> nodes = new List<SVMNode>();
-            for (int i = 1; i < list.Length; i++)
-            {
-                string[] temp = list[i].Split(':');
-                SVMNode node = new SVMNode();
-                node.Index = Convert.ToInt32(temp[0].Trim());
-                node.Value = Convert.ToDouble(temp[1].Trim(), provider);
-                nodes.Add(node);
-            }
-
-            problem.Add(nodes.ToArray(), y);
-            double[] target = problem.Predict(model);
-            return target[0].ToString();
         }
 
         private int checkJoint(SkeletonFrame sframe, Joint joint, int n)
