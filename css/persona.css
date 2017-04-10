@@ -1,0 +1,1685 @@
+
+
+<style id="style2" type="text/css" class="module-style">#ed-2 .nope, #pr-2 .nope {
+                                                            color: #4C7BA0;
+                                                        }
+
+#ed-2, #pr-2 {
+    border-color: #4C7BA0;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-2 .canvas-module > .header-container, #pr-2 .canvas-module > .header-container {
+    background-color: #4C7BA0;
+}
+
+#ed-2 .canvas-module .quote, #pr-2 .canvas-module .quote {
+    background-color: #4C7BA0;
+}
+
+#ed-2 .text-module .name, #pr-2 .text-module .name {
+    color: #4C7BA0;
+}
+
+#ed-2, #pr-2 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs2" type="text/css" class="module-style">#ed-2.upc-persona-name p {
+                                                                 font-size: 36px;
+                                                                 font-family: Proxima-Bold, #ed-2 . elvetica, #ed-2 . ans-serif;
+                                                                 color: rgb(84, #ed-2 .72, #ed-2 .10);
+                                                                 line-height: 1.1 !important;
+                                                             }
+
+#ed-2 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-2 . elvetica, #ed-2 . ans-serif;
+    color: rgb(84, #ed-2 .72, #ed-2 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-2.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-2 . elvetica, #pr-2 . ans-serif;
+    color: rgb(84, #pr-2 .72, #pr-2 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-2 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-2 . elvetica, #pr-2 . ans-serif;
+    color: rgb(84, #pr-2 .72, #pr-2 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-2.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-2 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-2.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-2 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-2.col-yellow p {
+    color: #fba026;
+}
+
+#ed-2 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-2.col-yellow p {
+    color: #fba026;
+}
+
+#pr-2 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-2.col-green p {
+    color: #61bd6d;
+}
+
+#ed-2 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-2.col-green p {
+    color: #61bd6d;
+}
+
+#pr-2 .col-green p {
+    color: #61bd6d;
+}</style>
+
+   <style id="style8" type="text/css" class="module-style">#ed-8 .nope, #pr-8 .nope {
+                                                               color: #124666;
+                                                           }
+
+#ed-8, #pr-8 {
+    border-color: #124666;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-8 .canvas-module > .header-container, #pr-8 .canvas-module > .header-container {
+    background-color: #124666;
+}
+
+#ed-8 .canvas-module .quote, #pr-8 .canvas-module .quote {
+    background-color: #124666;
+}
+
+#ed-8 .text-module .name, #pr-8 .text-module .name {
+    color: #124666;
+}
+
+#ed-8, #pr-8 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs8" type="text/css" class="module-style">#ed-8.upc-persona-name p {
+                                                                 font-size: 36px;
+                                                                 font-family: Proxima-Bold, #ed-8 . elvetica, #ed-8 . ans-serif;
+                                                                 color: rgb(84, #ed-8 .72, #ed-8 .10);
+                                                                 line-height: 1.1 !important;
+                                                             }
+
+#ed-8 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-8 . elvetica, #ed-8 . ans-serif;
+    color: rgb(84, #ed-8 .72, #ed-8 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-8.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-8 . elvetica, #pr-8 . ans-serif;
+    color: rgb(84, #pr-8 .72, #pr-8 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-8 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-8 . elvetica, #pr-8 . ans-serif;
+    color: rgb(84, #pr-8 .72, #pr-8 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-8.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-8 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-8.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-8 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-8.col-yellow p {
+    color: #fba026;
+}
+
+#ed-8 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-8.col-yellow p {
+    color: #fba026;
+}
+
+#pr-8 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-8.col-green p {
+    color: #61bd6d;
+}
+
+#ed-8 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-8.col-green p {
+    color: #61bd6d;
+}
+
+#pr-8 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="style59" type="text/css"
+class="module-style">#ed-59 h1, #pr-59 h1, #ed-59 h2, #pr-59 h2, #ed-59 h3, #pr-59 h3, #ed-59 h4, #pr-59 h4, #ed-59 .title > *:not(.fr-wrapper):first-child, #pr-59 .title > *:not(.fr-wrapper):first-child, #ed-59 .title .fr-view > *:first-child, #pr-59 .title .fr-view > *:first-child {
+                         color: #3C688F;
+                     }
+
+#ed-59, #pr-59 {
+    border-color: #3C688F;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-59 .header, #pr-59 .header {
+    color: #3C688F;
+}
+
+#ed-59, #pr-59 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs59" type="text/css" class="module-style">#ed-59.upc-persona-name p {
+                                                                  font-size: 36px;
+                                                                  font-family: Proxima-Bold, #ed-59 . elvetica, #ed-59 . ans-serif;
+                                                                  color: rgb(84, #ed-59 .72, #ed-59 .10);
+                                                                  line-height: 1.1 !important;
+                                                              }
+
+#ed-59 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-59 . elvetica, #ed-59 . ans-serif;
+    color: rgb(84, #ed-59 .72, #ed-59 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-59.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-59 . elvetica, #pr-59 . ans-serif;
+    color: rgb(84, #pr-59 .72, #pr-59 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-59 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-59 . elvetica, #pr-59 . ans-serif;
+    color: rgb(84, #pr-59 .72, #pr-59 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-59.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-59 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-59.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-59 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-59.col-yellow p {
+    color: #fba026;
+}
+
+#ed-59 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-59.col-yellow p {
+    color: #fba026;
+}
+
+#pr-59 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-59.col-green p {
+    color: #61bd6d;
+}
+
+#ed-59 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-59.col-green p {
+    color: #61bd6d;
+}
+
+#pr-59 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="style66" type="text/css"
+class="module-style">#ed-66 h1, #pr-66 h1, #ed-66 h2, #pr-66 h2, #ed-66 h3, #pr-66 h3, #ed-66 h4, #pr-66 h4, #ed-66 .title > *:not(.fr-wrapper):first-child, #pr-66 .title > *:not(.fr-wrapper):first-child, #ed-66 .title .fr-view > *:first-child, #pr-66 .title .fr-view > *:first-child {
+                         color: #3C688F;
+                     }
+
+#ed-66, #pr-66 {
+    border-color: #3C688F;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-66 .header, #pr-66 .header {
+    color: #3C688F;
+}
+
+#ed-66, #pr-66 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs66" type="text/css" class="module-style">#ed-66.upc-persona-name p {
+                                                                  font-size: 36px;
+                                                                  font-family: Proxima-Bold, #ed-66 . elvetica, #ed-66 . ans-serif;
+                                                                  color: rgb(84, #ed-66 .72, #ed-66 .10);
+                                                                  line-height: 1.1 !important;
+                                                              }
+
+#ed-66 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-66 . elvetica, #ed-66 . ans-serif;
+    color: rgb(84, #ed-66 .72, #ed-66 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-66.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-66 . elvetica, #pr-66 . ans-serif;
+    color: rgb(84, #pr-66 .72, #pr-66 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-66 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-66 . elvetica, #pr-66 . ans-serif;
+    color: rgb(84, #pr-66 .72, #pr-66 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-66.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-66 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-66.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-66 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-66.col-yellow p {
+    color: #fba026;
+}
+
+#ed-66 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-66.col-yellow p {
+    color: #fba026;
+}
+
+#pr-66 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-66.col-green p {
+    color: #61bd6d;
+}
+
+#ed-66 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-66.col-green p {
+    color: #61bd6d;
+}
+
+#pr-66 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="style56" type="text/css"
+class="module-style">#ed-56 h1, #pr-56 h1, #ed-56 h2, #pr-56 h2, #ed-56 h3, #pr-56 h3, #ed-56 h4, #pr-56 h4, #ed-56 .title > *:not(.fr-wrapper):first-child, #pr-56 .title > *:not(.fr-wrapper):first-child, #ed-56 .title .fr-view > *:first-child, #pr-56 .title .fr-view > *:first-child {
+                         color: #3C688F;
+                     }
+
+#ed-56, #pr-56 {
+    border-color: #3C688F;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-56 .header, #pr-56 .header {
+    color: #3C688F;
+}
+
+#ed-56, #pr-56 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs56" type="text/css" class="module-style">#ed-56.upc-persona-name p {
+                                                                  font-size: 36px;
+                                                                  font-family: Proxima-Bold, #ed-56 . elvetica, #ed-56 . ans-serif;
+                                                                  color: rgb(84, #ed-56 .72, #ed-56 .10);
+                                                                  line-height: 1.1 !important;
+                                                              }
+
+#ed-56 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-56 . elvetica, #ed-56 . ans-serif;
+    color: rgb(84, #ed-56 .72, #ed-56 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-56.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-56 . elvetica, #pr-56 . ans-serif;
+    color: rgb(84, #pr-56 .72, #pr-56 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-56 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-56 . elvetica, #pr-56 . ans-serif;
+    color: rgb(84, #pr-56 .72, #pr-56 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-56.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-56 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-56.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-56 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-56.col-yellow p {
+    color: #fba026;
+}
+
+#ed-56 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-56.col-yellow p {
+    color: #fba026;
+}
+
+#pr-56 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-56.col-green p {
+    color: #61bd6d;
+}
+
+#ed-56 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-56.col-green p {
+    color: #61bd6d;
+}
+
+#pr-56 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="style16" type="text/css" class="module-style">#ed-16 .nope, #pr-16 .nope {
+                                                                color: #3C688F;
+                                                            }
+
+#ed-16, #pr-16 {
+    border-color: #3C688F;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-16 .canvas-module > .header-container, #pr-16 .canvas-module > .header-container {
+    background-color: #3C688F;
+}
+
+#ed-16 .canvas-module .quote, #pr-16 .canvas-module .quote {
+    background-color: #3C688F;
+}
+
+#ed-16 .text-module .name, #pr-16 .text-module .name {
+    color: #3C688F;
+}
+
+#ed-16, #pr-16 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs16" type="text/css" class="module-style">#ed-16.upc-persona-name p {
+                                                                  font-size: 36px;
+                                                                  font-family: Proxima-Bold, #ed-16 . elvetica, #ed-16 . ans-serif;
+                                                                  color: rgb(84, #ed-16 .72, #ed-16 .10);
+                                                                  line-height: 1.1 !important;
+                                                              }
+
+#ed-16 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-16 . elvetica, #ed-16 . ans-serif;
+    color: rgb(84, #ed-16 .72, #ed-16 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-16.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-16 . elvetica, #pr-16 . ans-serif;
+    color: rgb(84, #pr-16 .72, #pr-16 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-16 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-16 . elvetica, #pr-16 . ans-serif;
+    color: rgb(84, #pr-16 .72, #pr-16 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-16.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-16 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-16.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-16 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-16.col-yellow p {
+    color: #fba026;
+}
+
+#ed-16 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-16.col-yellow p {
+    color: #fba026;
+}
+
+#pr-16 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-16.col-green p {
+    color: #61bd6d;
+}
+
+#ed-16 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-16.col-green p {
+    color: #61bd6d;
+}
+
+#pr-16 .col-green p {
+    color: #61bd6d;
+}</style>
+
+   <style id="style4" type="text/css" class="module-style">#ed-4 .nope, #pr-4 .nope {
+                                                               color: #124666;
+                                                           }
+
+#ed-4, #pr-4 {
+    border-color: #124666;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-4 .canvas-module > .header-container, #pr-4 .canvas-module > .header-container {
+    background-color: #124666;
+}
+
+#ed-4 .canvas-module .quote, #pr-4 .canvas-module .quote {
+    background-color: #124666;
+}
+
+#ed-4 .text-module .name, #pr-4 .text-module .name {
+    color: #124666;
+}
+
+#ed-4, #pr-4 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs4" type="text/css" class="module-style">#ed-4.upc-persona-name p {
+                                                                 font-size: 36px;
+                                                                 font-family: Proxima-Bold, #ed-4 . elvetica, #ed-4 . ans-serif;
+                                                                 color: rgb(84, #ed-4 .72, #ed-4 .10);
+                                                                 line-height: 1.1 !important;
+                                                             }
+
+#ed-4 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-4 . elvetica, #ed-4 . ans-serif;
+    color: rgb(84, #ed-4 .72, #ed-4 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-4.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-4 . elvetica, #pr-4 . ans-serif;
+    color: rgb(84, #pr-4 .72, #pr-4 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-4 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-4 . elvetica, #pr-4 . ans-serif;
+    color: rgb(84, #pr-4 .72, #pr-4 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-4.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-4 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-4.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-4 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-4.col-yellow p {
+    color: #fba026;
+}
+
+#ed-4 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-4.col-yellow p {
+    color: #fba026;
+}
+
+#pr-4 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-4.col-green p {
+    color: #61bd6d;
+}
+
+#ed-4 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-4.col-green p {
+    color: #61bd6d;
+}
+
+#pr-4 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="style49" type="text/css"
+class="module-style">#ed-49 h1, #pr-49 h1, #ed-49 h2, #pr-49 h2, #ed-49 h3, #pr-49 h3, #ed-49 h4, #pr-49 h4, #ed-49 .title > *:not(.fr-wrapper):first-child, #pr-49 .title > *:not(.fr-wrapper):first-child, #ed-49 .title .fr-view > *:first-child, #pr-49 .title .fr-view > *:first-child {
+                         color: #124666;
+                     }
+
+#ed-49, #pr-49 {
+    border-color: #124666;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-49 .slider-bar, #pr-49 .slider-bar {
+    background-color: #124666;
+}
+
+#ed-49 .header-container .header, #pr-49 .header-container .header {
+    color: #124666;
+}
+
+#ed-49, #pr-49 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs49" type="text/css" class="module-style">#ed-49.upc-persona-name p {
+                                                                  font-size: 36px;
+                                                                  font-family: Proxima-Bold, #ed-49 . elvetica, #ed-49 . ans-serif;
+                                                                  color: rgb(84, #ed-49 .72, #ed-49 .10);
+                                                                  line-height: 1.1 !important;
+                                                              }
+
+#ed-49 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-49 . elvetica, #ed-49 . ans-serif;
+    color: rgb(84, #ed-49 .72, #ed-49 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-49.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-49 . elvetica, #pr-49 . ans-serif;
+    color: rgb(84, #pr-49 .72, #pr-49 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-49 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-49 . elvetica, #pr-49 . ans-serif;
+    color: rgb(84, #pr-49 .72, #pr-49 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-49.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-49 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-49.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-49 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-49.col-yellow p {
+    color: #fba026;
+}
+
+#ed-49 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-49.col-yellow p {
+    color: #fba026;
+}
+
+#pr-49 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-49.col-green p {
+    color: #61bd6d;
+}
+
+#ed-49 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-49.col-green p {
+    color: #61bd6d;
+}
+
+#pr-49 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="style51" type="text/css"
+class="module-style">#ed-51 h1, #pr-51 h1, #ed-51 h2, #pr-51 h2, #ed-51 h3, #pr-51 h3, #ed-51 h4, #pr-51 h4, #ed-51 .title > *:not(.fr-wrapper):first-child, #pr-51 .title > *:not(.fr-wrapper):first-child, #ed-51 .title .fr-view > *:first-child, #pr-51 .title .fr-view > *:first-child {
+                         color: #124666;
+                     }
+
+#ed-51, #pr-51 {
+    border-color: #124666;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-51 .slider-bar, #pr-51 .slider-bar {
+    background-color: #124666;
+}
+
+#ed-51 .header-container .header, #pr-51 .header-container .header {
+    color: #124666;
+}
+
+#ed-51, #pr-51 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs51" type="text/css" class="module-style">#ed-51.upc-persona-name p {
+                                                                  font-size: 36px;
+                                                                  font-family: Proxima-Bold, #ed-51 . elvetica, #ed-51 . ans-serif;
+                                                                  color: rgb(84, #ed-51 .72, #ed-51 .10);
+                                                                  line-height: 1.1 !important;
+                                                              }
+
+#ed-51 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-51 . elvetica, #ed-51 . ans-serif;
+    color: rgb(84, #ed-51 .72, #ed-51 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-51.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-51 . elvetica, #pr-51 . ans-serif;
+    color: rgb(84, #pr-51 .72, #pr-51 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-51 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-51 . elvetica, #pr-51 . ans-serif;
+    color: rgb(84, #pr-51 .72, #pr-51 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-51.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-51 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-51.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-51 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-51.col-yellow p {
+    color: #fba026;
+}
+
+#ed-51 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-51.col-yellow p {
+    color: #fba026;
+}
+
+#pr-51 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-51.col-green p {
+    color: #61bd6d;
+}
+
+#ed-51 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-51.col-green p {
+    color: #61bd6d;
+}
+
+#pr-51 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="style50" type="text/css"
+class="module-style">#ed-50 h1, #pr-50 h1, #ed-50 h2, #pr-50 h2, #ed-50 h3, #pr-50 h3, #ed-50 h4, #pr-50 h4, #ed-50 .title > *:not(.fr-wrapper):first-child, #pr-50 .title > *:not(.fr-wrapper):first-child, #ed-50 .title .fr-view > *:first-child, #pr-50 .title .fr-view > *:first-child {
+                         color: #124666;
+                     }
+
+#ed-50, #pr-50 {
+    border-color: #124666;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-50 .slider-bar, #pr-50 .slider-bar {
+    background-color: #124666;
+}
+
+#ed-50 .header-container .header, #pr-50 .header-container .header {
+    color: #124666;
+}
+
+#ed-50, #pr-50 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs50" type="text/css" class="module-style">#ed-50.upc-persona-name p {
+                                                                  font-size: 36px;
+                                                                  font-family: Proxima-Bold, #ed-50 . elvetica, #ed-50 . ans-serif;
+                                                                  color: rgb(84, #ed-50 .72, #ed-50 .10);
+                                                                  line-height: 1.1 !important;
+                                                              }
+
+#ed-50 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-50 . elvetica, #ed-50 . ans-serif;
+    color: rgb(84, #ed-50 .72, #ed-50 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-50.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-50 . elvetica, #pr-50 . ans-serif;
+    color: rgb(84, #pr-50 .72, #pr-50 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-50 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-50 . elvetica, #pr-50 . ans-serif;
+    color: rgb(84, #pr-50 .72, #pr-50 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-50.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-50 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-50.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-50 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-50.col-yellow p {
+    color: #fba026;
+}
+
+#ed-50 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-50.col-yellow p {
+    color: #fba026;
+}
+
+#pr-50 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-50.col-green p {
+    color: #61bd6d;
+}
+
+#ed-50 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-50.col-green p {
+    color: #61bd6d;
+}
+
+#pr-50 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="style9" type="text/css" class="module-style">#ed-9 .nope, #pr-9 .nope {
+                                                               color: #124666;
+                                                           }
+
+#ed-9, #pr-9 {
+    border-color: #124666;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-9 .canvas-module > .header-container, #pr-9 .canvas-module > .header-container {
+    background-color: #124666;
+}
+
+#ed-9 .canvas-module .quote, #pr-9 .canvas-module .quote {
+    background-color: #124666;
+}
+
+#ed-9 .text-module .name, #pr-9 .text-module .name {
+    color: #124666;
+}
+
+#ed-9, #pr-9 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs9" type="text/css" class="module-style">#ed-9.upc-persona-name p {
+                                                                 font-size: 36px;
+                                                                 font-family: Proxima-Bold, #ed-9 . elvetica, #ed-9 . ans-serif;
+                                                                 color: rgb(84, #ed-9 .72, #ed-9 .10);
+                                                                 line-height: 1.1 !important;
+                                                             }
+
+#ed-9 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-9 . elvetica, #ed-9 . ans-serif;
+    color: rgb(84, #ed-9 .72, #ed-9 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-9.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-9 . elvetica, #pr-9 . ans-serif;
+    color: rgb(84, #pr-9 .72, #pr-9 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-9 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-9 . elvetica, #pr-9 . ans-serif;
+    color: rgb(84, #pr-9 .72, #pr-9 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-9.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-9 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-9.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-9 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-9.col-yellow p {
+    color: #fba026;
+}
+
+#ed-9 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-9.col-yellow p {
+    color: #fba026;
+}
+
+#pr-9 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-9.col-green p {
+    color: #61bd6d;
+}
+
+#ed-9 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-9.col-green p {
+    color: #61bd6d;
+}
+
+#pr-9 .col-green p {
+    color: #61bd6d;
+}</style>
+
+   <style id="style7" type="text/css" class="module-style">#ed-7 .nope, #pr-7 .nope {
+                                                               color: #124666;
+                                                           }
+
+#ed-7, #pr-7 {
+    border-color: #124666;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-7 .canvas-module > .header-container, #pr-7 .canvas-module > .header-container {
+    background-color: #124666;
+}
+
+#ed-7 .canvas-module .quote, #pr-7 .canvas-module .quote {
+    background-color: #124666;
+}
+
+#ed-7 .text-module .name, #pr-7 .text-module .name {
+    color: #124666;
+}
+
+#ed-7, #pr-7 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs7" type="text/css" class="module-style">#ed-7.upc-persona-name p {
+                                                                 font-size: 36px;
+                                                                 font-family: Proxima-Bold, #ed-7 . elvetica, #ed-7 . ans-serif;
+                                                                 color: rgb(84, #ed-7 .72, #ed-7 .10);
+                                                                 line-height: 1.1 !important;
+                                                             }
+
+#ed-7 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-7 . elvetica, #ed-7 . ans-serif;
+    color: rgb(84, #ed-7 .72, #ed-7 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-7.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-7 . elvetica, #pr-7 . ans-serif;
+    color: rgb(84, #pr-7 .72, #pr-7 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-7 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-7 . elvetica, #pr-7 . ans-serif;
+    color: rgb(84, #pr-7 .72, #pr-7 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-7.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-7 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-7.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-7 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-7.col-yellow p {
+    color: #fba026;
+}
+
+#ed-7 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-7.col-yellow p {
+    color: #fba026;
+}
+
+#pr-7 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-7.col-green p {
+    color: #61bd6d;
+}
+
+#ed-7 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-7.col-green p {
+    color: #61bd6d;
+}
+
+#pr-7 .col-green p {
+    color: #61bd6d;
+}</style>
+
+   <style id="style11" type="text/css" class="module-style">#ed-11 .nope, #pr-11 .nope {
+                                                                color: #124666;
+                                                            }
+
+#ed-11, #pr-11 {
+    border-color: #124666;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-11 .canvas-module > .header-container, #pr-11 .canvas-module > .header-container {
+    background-color: #124666;
+}
+
+#ed-11 .canvas-module .quote, #pr-11 .canvas-module .quote {
+    background-color: #124666;
+}
+
+#ed-11 .text-module .name, #pr-11 .text-module .name {
+    color: #124666;
+}
+
+#ed-11, #pr-11 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs11" type="text/css" class="module-style">#ed-11.upc-persona-name p {
+                                                                  font-size: 36px;
+                                                                  font-family: Proxima-Bold, #ed-11 . elvetica, #ed-11 . ans-serif;
+                                                                  color: rgb(84, #ed-11 .72, #ed-11 .10);
+                                                                  line-height: 1.1 !important;
+                                                              }
+
+#ed-11 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-11 . elvetica, #ed-11 . ans-serif;
+    color: rgb(84, #ed-11 .72, #ed-11 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-11.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-11 . elvetica, #pr-11 . ans-serif;
+    color: rgb(84, #pr-11 .72, #pr-11 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-11 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-11 . elvetica, #pr-11 . ans-serif;
+    color: rgb(84, #pr-11 .72, #pr-11 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-11.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-11 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-11.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-11 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-11.col-yellow p {
+    color: #fba026;
+}
+
+#ed-11 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-11.col-yellow p {
+    color: #fba026;
+}
+
+#pr-11 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-11.col-green p {
+    color: #61bd6d;
+}
+
+#ed-11 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-11.col-green p {
+    color: #61bd6d;
+}
+
+#pr-11 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="style63" type="text/css"
+class="module-style">#ed-63 h1, #pr-63 h1, #ed-63 h2, #pr-63 h2, #ed-63 h3, #pr-63 h3, #ed-63 h4, #pr-63 h4, #ed-63 .title > *:not(.fr-wrapper):first-child, #pr-63 .title > *:not(.fr-wrapper):first-child, #ed-63 .title .fr-view > *:first-child, #pr-63 .title .fr-view > *:first-child {
+                         color: #124666;
+                     }
+
+#ed-63, #pr-63 {
+    border-color: #124666;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-63 .slider-bar, #pr-63 .slider-bar {
+    background-color: #124666;
+}
+
+#ed-63 .header, #pr-63 .header {
+    color: #124666;
+}
+
+#ed-63, #pr-63 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs63" type="text/css" class="module-style">#ed-63.upc-persona-name p {
+                                                                  font-size: 36px;
+                                                                  font-family: Proxima-Bold, #ed-63 . elvetica, #ed-63 . ans-serif;
+                                                                  color: rgb(84, #ed-63 .72, #ed-63 .10);
+                                                                  line-height: 1.1 !important;
+                                                              }
+
+#ed-63 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-63 . elvetica, #ed-63 . ans-serif;
+    color: rgb(84, #ed-63 .72, #ed-63 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-63.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-63 . elvetica, #pr-63 . ans-serif;
+    color: rgb(84, #pr-63 .72, #pr-63 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-63 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-63 . elvetica, #pr-63 . ans-serif;
+    color: rgb(84, #pr-63 .72, #pr-63 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-63.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-63 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-63.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-63 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-63.col-yellow p {
+    color: #fba026;
+}
+
+#ed-63 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-63.col-yellow p {
+    color: #fba026;
+}
+
+#pr-63 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-63.col-green p {
+    color: #61bd6d;
+}
+
+#ed-63 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-63.col-green p {
+    color: #61bd6d;
+}
+
+#pr-63 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="style60" type="text/css"
+class="module-style">#ed-60 h1, #pr-60 h1, #ed-60 h2, #pr-60 h2, #ed-60 h3, #pr-60 h3, #ed-60 h4, #pr-60 h4, #ed-60 .title > *:not(.fr-wrapper):first-child, #pr-60 .title > *:not(.fr-wrapper):first-child, #ed-60 .title .fr-view > *:first-child, #pr-60 .title .fr-view > *:first-child {
+                         color: #124666;
+                     }
+
+#ed-60, #pr-60 {
+    border-color: #124666;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-60 .slider-bar, #pr-60 .slider-bar {
+    background-color: #124666;
+}
+
+#ed-60 .header, #pr-60 .header {
+    color: #124666;
+}
+
+#ed-60, #pr-60 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs60" type="text/css" class="module-style">#ed-60.upc-persona-name p {
+                                                                  font-size: 36px;
+                                                                  font-family: Proxima-Bold, #ed-60 . elvetica, #ed-60 . ans-serif;
+                                                                  color: rgb(84, #ed-60 .72, #ed-60 .10);
+                                                                  line-height: 1.1 !important;
+                                                              }
+
+#ed-60 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-60 . elvetica, #ed-60 . ans-serif;
+    color: rgb(84, #ed-60 .72, #ed-60 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-60.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-60 . elvetica, #pr-60 . ans-serif;
+    color: rgb(84, #pr-60 .72, #pr-60 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-60 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-60 . elvetica, #pr-60 . ans-serif;
+    color: rgb(84, #pr-60 .72, #pr-60 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-60.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-60 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-60.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-60 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-60.col-yellow p {
+    color: #fba026;
+}
+
+#ed-60 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-60.col-yellow p {
+    color: #fba026;
+}
+
+#pr-60 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-60.col-green p {
+    color: #61bd6d;
+}
+
+#ed-60 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-60.col-green p {
+    color: #61bd6d;
+}
+
+#pr-60 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="style61" type="text/css"
+class="module-style">#ed-61 h1, #pr-61 h1, #ed-61 h2, #pr-61 h2, #ed-61 h3, #pr-61 h3, #ed-61 h4, #pr-61 h4, #ed-61 .title > *:not(.fr-wrapper):first-child, #pr-61 .title > *:not(.fr-wrapper):first-child, #ed-61 .title .fr-view > *:first-child, #pr-61 .title .fr-view > *:first-child {
+                         color: #124666;
+                     }
+
+#ed-61, #pr-61 {
+    border-color: #124666;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-61 .slider-bar, #pr-61 .slider-bar {
+    background-color: #124666;
+}
+
+#ed-61 .header, #pr-61 .header {
+    color: #124666;
+}
+
+#ed-61, #pr-61 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs61" type="text/css" class="module-style">#ed-61.upc-persona-name p {
+                                                                  font-size: 36px;
+                                                                  font-family: Proxima-Bold, #ed-61 . elvetica, #ed-61 . ans-serif;
+                                                                  color: rgb(84, #ed-61 .72, #ed-61 .10);
+                                                                  line-height: 1.1 !important;
+                                                              }
+
+#ed-61 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-61 . elvetica, #ed-61 . ans-serif;
+    color: rgb(84, #ed-61 .72, #ed-61 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-61.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-61 . elvetica, #pr-61 . ans-serif;
+    color: rgb(84, #pr-61 .72, #pr-61 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-61 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-61 . elvetica, #pr-61 . ans-serif;
+    color: rgb(84, #pr-61 .72, #pr-61 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-61.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-61 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-61.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-61 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-61.col-yellow p {
+    color: #fba026;
+}
+
+#ed-61 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-61.col-yellow p {
+    color: #fba026;
+}
+
+#pr-61 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-61.col-green p {
+    color: #61bd6d;
+}
+
+#ed-61 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-61.col-green p {
+    color: #61bd6d;
+}
+
+#pr-61 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="style27" type="text/css" class="module-style">#ed-27 .nope, #pr-27 .nope {
+                                                                color: #124666;
+                                                            }
+
+#ed-27, #pr-27 {
+    border-color: #124666;
+    border-style: solid;
+    border-width: 0;
+}
+
+#ed-27 .canvas-module > .header-container, #pr-27 .canvas-module > .header-container {
+    background-color: #124666;
+}
+
+#ed-27 .canvas-module .quote, #pr-27 .canvas-module .quote {
+    background-color: #124666;
+}
+
+#ed-27 .text-module .name, #pr-27 .text-module .name {
+    color: #124666;
+}
+
+#ed-27, #pr-27 {
+    margin: 0 auto;
+}</style>
+   <style id="stylefs27" type="text/css" class="module-style">#ed-27.upc-persona-name p {
+                                                                  font-size: 36px;
+                                                                  font-family: Proxima-Bold, #ed-27 . elvetica, #ed-27 . ans-serif;
+                                                                  color: rgb(84, #ed-27 .72, #ed-27 .10);
+                                                                  line-height: 1.1 !important;
+                                                              }
+
+#ed-27 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #ed-27 . elvetica, #ed-27 . ans-serif;
+    color: rgb(84, #ed-27 .72, #ed-27 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-27.upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-27 . elvetica, #pr-27 . ans-serif;
+    color: rgb(84, #pr-27 .72, #pr-27 .10);
+    line-height: 1.1 !important;
+}
+
+#pr-27 .upc-persona-name p {
+    font-size: 36px;
+    font-family: Proxima-Bold, #pr-27 . elvetica, #pr-27 . ans-serif;
+    color: rgb(84, #pr-27 .72, #pr-27 .10);
+    line-height: 1.1 !important;
+}
+
+#ed-27.col-pink p {
+    color: #EB6B56;
+}
+
+#ed-27 .col-pink p {
+    color: #EB6B56;
+}
+
+#pr-27.col-pink p {
+    color: #EB6B56;
+}
+
+#pr-27 .col-pink p {
+    color: #EB6B56;
+}
+
+#ed-27.col-yellow p {
+    color: #fba026;
+}
+
+#ed-27 .col-yellow p {
+    color: #fba026;
+}
+
+#pr-27.col-yellow p {
+    color: #fba026;
+}
+
+#pr-27 .col-yellow p {
+    color: #fba026;
+}
+
+#ed-27.col-green p {
+    color: #61bd6d;
+}
+
+#ed-27 .col-green p {
+    color: #61bd6d;
+}
+
+#pr-27.col-green p {
+    color: #61bd6d;
+}
+
+#pr-27 .col-green p {
+    color: #61bd6d;
+}</style>
+   <style id="folio-style" type="text/css">.upc-persona-name p {
+                                               font-size: 36px;
+                                               font-family: Proxima-Bold, Helvetica, sans-serif;
+                                               color: rgb(84, 172, 210);
+                                               line-height: 1.1 !important;
+                                           }
+
+.col-pink p {
+    color: #EB6B56;
+}
+
+.col-yellow p {
+    color: #fba026;
+}
+
+.col-green p {
+    color: #61bd6d;
+}</style>
